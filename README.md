@@ -14,7 +14,7 @@ The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The code are l
 
 The PyQT5 bundled with Python 3.x so you need to check the python version before install the QT5 for python. 
 
-Please be advised you should need to check your system type to download/install the 32/64 bit Python.
+Please be advised you probably need to check your system type to download/install the right python. This code is compiled by 64  bit system type.
 
 To check the python version, open the terminal or cmd and type pythone or python --version to see the python before compile the clock widget.
 
@@ -41,10 +41,12 @@ In order to run these tools you would search the following systems/utilities/too
 ## Test and Run (Windows)
 1. copy the codes to your local directory 
 2. change diretory to your local directory
-3. under the directory type: python setup.py build
+3. under the directory type: 
+   python setup.py build
 4. when the compile command fired, cx_Freeze will follow the schema in setup.py to build an executable file inside build/exe.win-amd64-3.6
-5. run the compiled file clock.exe (in this example) to see the clock widget
-6. this package is available to be packed as a installer by Inno setup
+5. run the compiled file clock.exe inside the exe directory to see the clock widget
+
+Note: this package is available to be packed as a installer if you are interested.
 
 ## Snapshots
 
