@@ -60,7 +60,7 @@ Note: you also can pack the files as a installer by Inno setup if you are intere
 ## Snapshots
 
 * adb-run<br>
-![adb-run](https://raw.githubusercontent.com/joechiu/adb-tools/master/snapshots/adb-run-snapshot.png "adb-run snapshot")
+![adb-run](/joechiu/clock/blob/master/ss02.png?raw=true "adb-run snapshot")
 
 * adb-install<br>
 ![adb-install](https://raw.githubusercontent.com/joechiu/adb-tools/master/snapshots/adb-install-snapshot.png "adb-install snapshot")
