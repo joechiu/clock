@@ -99,6 +99,7 @@ class AnalogClock(QWidget):
     def showDialog(self):
         d = QDialog()
 
+        d.setWindowIcon(QIcon('icon.ico'))
         d.setWindowFlag(Qt.FramelessWindowHint)
         d.setAttribute(Qt.WA_TranslucentBackground)
 
