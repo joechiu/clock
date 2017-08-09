@@ -16,7 +16,7 @@ The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The code are l
 
 ## Prerequisition Installation
 
-The PyQT5 bundled with Python 3.x so you need to check the python version before install the QT5 libraries. 
+PyQT5 is bundled with Python 3.x so you need to check the python version before install the QT5 libraries. 
 
 Please be advised you probably need to check your system type to download/install the right python. For example, this clock widget is compiled by 64  bit system and yet for x86.
 
