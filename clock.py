@@ -40,7 +40,7 @@
 ##
 #############################################################################
 
-import division
+from __future__ import division
 
 import time
 from PyQt5.QtCore import QPoint, Qt, QTime, QTimer
