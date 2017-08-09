@@ -14,10 +14,10 @@ The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The codes are 
 
 ## Prerequisition Installation
 
-PyQT5 is well bundled with Python 3.x so it's required to check the python version before install the QT5 libraries though there is a discussion about how to install PyQT5 for python python 2.x.<br>
+PyQT5 is well bundled with Python 3.x so it's required to check the python version before install the QT5 libraries though here is a discussion about how to install PyQT5 for python python 2.x.<br>
 https://stackoverflow.com/questions/25589103/how-to-install-pyqt5-on-windows-for-python-2
 
-Please be advised you probably need to check your system type to download/install the right python. For example, this clock widget is compiled by 64  bit system and yet for x86.
+Please be advised you probably need to check your system type to download/install the proper python. For example, this clock widget is compiled by 64 bit system and yet for x86.
 
 To check the python version, open the terminal or cmd and type python or python --version to see the version before compile the clock widget.
 
