@@ -10,7 +10,7 @@ Clock Widget is an analog clock controlled by mouse to display the current time.
 
 ## Code
 
-The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The code are lite and compacted, easy to update and maintain by your own.
+The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The codes are lite and compacted, easy to update and maintain by your own.
 
 ## Prerequisition Installation
 
