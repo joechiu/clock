@@ -72,6 +72,14 @@ Note: you also can pack the files as a installer by Inno setup if you are intere
 * Side menu<br>
 ![side menu](https://github.com/joechiu/clock/blob/master/ss03.png?raw=true "side menu snapshot")
 
+## Resources
+
+Images and Icons:
+http://www.iconarchive.com/tag/clock
+
+PyQT5 examples:
+https://github.com/baoboa/pyqt5/tree/master/examples
+
 ## Contributors
 
 You are free to update these tools to make them more helpful.
