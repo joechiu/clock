@@ -19,7 +19,7 @@ https://stackoverflow.com/questions/25589103/how-to-install-pyqt5-on-windows-for
 
 Please be advised you probably need to check your system type to download/install the right python. For example, this clock widget is compiled by 64  bit system and yet for x86.
 
-To check the python version, open the terminal or cmd and type pythone or python --version to see the python version before compile the clock widget.
+To check the python version, open the terminal or cmd and type python or python --version to see the version before compile the clock widget.
 
 $ python --version
 Python 3.6.2
