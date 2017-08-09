@@ -74,10 +74,10 @@ Note: you also can pack the files as a installer by Inno setup if you are intere
 
 ## Resources
 
-Images and Icons:
+Images and Icons:<br>
 http://www.iconarchive.com/tag/clock
 
-PyQT5 examples:
+PyQT5 examples:<br>
 https://github.com/baoboa/pyqt5/tree/master/examples
 
 ## Contributors
