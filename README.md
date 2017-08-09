@@ -59,13 +59,13 @@ Note: you also can pack the files as a installer by Inno setup if you are intere
 
 ## Snapshots
 
-* adb-run<br>
+* Widget on top<br>
 ![on top](https://github.com/joechiu/clock/blob/master/ss01.png?raw=true "widget on top snapshot")
 
-* adb-install<br>
+* Expandable to screen<br>
 ![expand to screen](https://github.com/joechiu/clock/blob/master/ss02.png?raw=true "expandable to screen by mouse wheel snapshot")
 
-* adb-uninstall<br>
+* Side menu<br>
 ![side menu](https://github.com/joechiu/clock/blob/master/ss03.png?raw=true "side menu snapshot")
 
 ## Contributors
