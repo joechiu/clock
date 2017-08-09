@@ -45,8 +45,13 @@ In order to run these tools you would search the following systems/utilities/too
    python setup.py build
 4. when the compile command fired, cx_Freeze will follow the schema in setup.py to build an executable file inside build/exe.win-amd64-3.6
 5. run the compiled file clock.exe inside the exe directory to see the clock widget
+7. packed as a msi by:
+    python setup.py bdist_msi
+8. Analog Clock-0.2-amd64.msi will be generated in the dist folder
 
-Note: this package is available to be packed as a installer if you are interested.
+Note 1: You're probably interested to customize the msi installation by this topic: https://stackoverflow.com/questions/17307934/creating-msi-with-cx-freeze-and-bdist-msi-for-pyside-app
+
+Note 2: you also can pack the files as a installer by Inno setup if you are interested. 
 
 ## Snapshots
 
