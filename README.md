@@ -1,6 +1,6 @@
 # clock widget
 
-A fun clock widget compilable for Linux, OS2 and Windows. Developed by Python3.62 and PyQT5. 
+A fun clock widget compilable for Linux, OS2 and Windows updated by an example provided by PyQT5 package in github. Developed by Python3.62 and PyQT5. 
 
 ## Synopsis
 
@@ -49,8 +49,8 @@ In order to run these tools you would search the following systems/utilities/too
     python setup.py bdist_msi
 8. Analog Clock-0.2-amd64.msi will be generated in the dist folder
 
-Note 1: You're probably interested to customize the msi installation by this topic: https://stackoverflow.com/questions/17307934/creating-msi-with-cx-freeze-and-bdist-msi-for-pyside-app
-
+Note 1: You're probably interested to customize the msi installation by this topic: 
+https://stackoverflow.com/questions/17307934/creating-msi-with-cx-freeze-and-bdist-msi-for-pyside-app
 Note 2: you also can pack the files as a installer by Inno setup if you are interested. 
 
 ## Snapshots
