@@ -16,7 +16,7 @@ The widget written by Python 3.6.2 in Ubuntu 16.04 and Windows 7. The code are l
 
 ## Prerequisition Installation
 
-PyQT5 is well bundled with Python 3.x so it's required to check the python version before install the QT5 libraries though there is a discussion about how to install PyQT5 for python python 2.x.
+PyQT5 is well bundled with Python 3.x so it's required to check the python version before install the QT5 libraries though there is a discussion about how to install PyQT5 for python python 2.x.<br>
 https://stackoverflow.com/questions/25589103/how-to-install-pyqt5-on-windows-for-python-2
 
 Please be advised you probably need to check your system type to download/install the right python. For example, this clock widget is compiled by 64  bit system and yet for x86.
@@ -48,16 +48,16 @@ In order to run this widget you are recommended to search the following systems/
 EXE pack:
 1. copy the codes to your local directory 
 2. change diretory to your local directory
-3. under the directory type: 
+3. under the directory type: <br>
    python setup.py build
 4. when the compile command fired, cx_Freeze will follow the schema in setup.py to build an executable file inside build/exe.win-amd64-3.6
 5. run the compiled file clock.exe inside the exe directory to see the clock widget
 
 MSI pack:
-1. run the following command to pack as a msi:
+1. run the following command to pack as a msi:<br>
     python setup.py bdist_msi
 2. Analog Clock-0.2-amd64.msi will be generated in the dist folder
-3. You're probably interested to customize the msi installation by this topic: 
+3. You're probably interested to customize the msi installation by this topic: <br>
    https://stackoverflow.com/questions/17307934/creating-msi-with-cx-freeze-and-bdist-msi-for-pyside-app
 
 Note: you also can pack the files as a installer by Inno setup if you are interested. see http://www.jrsoftware.org/isinfo.php for more information.
