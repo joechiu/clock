@@ -60,7 +60,7 @@ MSI pack:
 3. You're probably interested to customize the msi installation by this topic: <br>
    https://stackoverflow.com/questions/17307934/creating-msi-with-cx-freeze-and-bdist-msi-for-pyside-app
 
-Note: you also can pack the files as a installer by Inno setup if you are interested. see http://www.jrsoftware.org/isinfo.php for more information.
+Note: you also can pack the files as a installer by Inno setup. see http://www.jrsoftware.org/isinfo.php for more information if you are interested.
 
 ## Snapshots
 
