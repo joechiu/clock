@@ -1,8 +1,6 @@
 # clock widget
 
-A fun clock widget compatable for Linux, OS2 and Windows. 
-
-It used to be an example code provided by PyQT5 package in github and improved the functions for the clock attributes and system features. 
+A fun clock widget compatable for Linux, OS2 and Windows improved from an example code provided by PyQT5 package in github. 
 
 Developed by Python3.62 and PyQT5. 
 
