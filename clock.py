@@ -42,8 +42,10 @@
 
 from __future__ import division
 
-import time
-from PyQt5.QtCore import QPoint, Qt, QTime, QTimer
+import sys, sched, time
+import threading as td
+from datetime import datetime as dt
+from PyQt5.QtCore import QPoint, Qt, QTime, QTimer, QThread
 from PyQt5.QtGui import QColor, QPainter, QPolygon, QIcon
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton,
                                 QDialog, QDesktopWidget, QToolTip)
@@ -86,6 +88,7 @@ class AnalogClock(QWidget):
         self._top = "On Top"
         self._time = self.digitTime()
         self._tb = None
+        self._alert = None
 
         self.resize(200, 200)
         
@@ -99,9 +102,9 @@ class AnalogClock(QWidget):
     def showDialog(self):
         d = QDialog()
 
-        d.setWindowIcon(QIcon('icon.ico'))
         d.setWindowFlag(Qt.FramelessWindowHint)
         d.setAttribute(Qt.WA_TranslucentBackground)
+        d.setWindowIcon(QIcon('icon.ico'))
 
         names = ('Zoom In', 'Zoom Out', self._top, 
                  'Cancel', 'Exit', self._time)
@@ -161,6 +164,8 @@ class AnalogClock(QWidget):
         return text
     
     def paintEvent(self, event):
+        
+        global MSG
         
         if self._tip:
             QToolTip.showText(
@@ -227,7 +232,10 @@ class AnalogClock(QWidget):
     def mouseDoubleClickEvent(self, mouseEvent):
         if mouseEvent.button() == Qt.RightButton:
             return
+        elif mouseEvent.button() == Qt.MiddleButton:
+            return
         else:
+            self.alertDialog()
             return
 
     def wheelEvent(self, event):
@@ -248,6 +256,10 @@ class AnalogClock(QWidget):
     def mousePressEvent(self, event):
         self.offset = event.pos()
         self._tip = None
+        
+        if self._alert:
+            self._alert.close()
+            
         if event.button() == Qt.RightButton:
             self.showDialog()
         if event.button() == Qt.MiddleButton:
@@ -275,8 +287,7 @@ class AnalogClock(QWidget):
         x_w = self.offset.x()
         y_w = self.offset.y()
         self.move(x - x_w, y - y_w)
-
-
+        
 if __name__ == '__main__':
 
     import sys
